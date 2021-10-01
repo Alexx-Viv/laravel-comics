@@ -1,0 +1,36 @@
+footer {
+    background-color: #333;
+    padding: 10px;
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .button {
+            padding: 10px;
+            border: 1px solid $primary-light;
+            a {
+                text-transform: uppercase;
+                color: white;
+                font-weight: bold;
+            }
+            &.active,
+            &:hover {
+                background-color: $primary-light;
+            }
+        }
+        .social {
+            display: flex;
+            align-items: center;
+            a {
+                text-transform: uppercase;
+                color: $primary-light;
+                font-weight: bold;
+                margin-right: 20px;
+            }
+            img {
+                margin: 5px;
+                max-width: 25px;
+            }
+        }
+    }
+}

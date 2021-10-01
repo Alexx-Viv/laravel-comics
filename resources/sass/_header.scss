@@ -1,0 +1,29 @@
+header {
+    padding: 20px;
+    background-color: #f1f1f1;
+    .container {
+        display: flex;
+        figure {
+            max-width: 80%;
+            margin-right: 100px;
+        }
+        ul {
+            display: flex;
+            align-items: center;
+            justify-content: left;
+            padding: 0;
+            li {
+                list-style: none;
+                font-weight: bold;
+                text-transform: uppercase;
+                a {
+                    padding: 10px;
+                    &.active,
+                    &:hover {
+                        background-color: $primary-light;
+                    }
+                }
+            }
+        }
+    }
+}
