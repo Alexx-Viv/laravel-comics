@@ -90,3 +90,14 @@ footer .container .social img {
   margin: 5px;
   max-width: 25px;
 }
+
+main {
+  height: 50vh;
+  background-image: url("../img/jumbotron.jpg");
+  background-size: cover;
+  padding: 20px;
+}
+main h1 {
+  color: white;
+  text-transform: uppercase;
+}
