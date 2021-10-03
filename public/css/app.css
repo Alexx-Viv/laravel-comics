@@ -52,7 +52,7 @@ header .container ul li a {
   padding: 10px;
 }
 header .container ul li a.active, header .container ul li a:hover {
-  background-color: lightblue;
+  background-color: #097ceb;
 }
 
 footer {
@@ -66,7 +66,7 @@ footer .container {
 }
 footer .container .button {
   padding: 10px;
-  border: 1px solid lightblue;
+  border: 1px solid #097ceb;
 }
 footer .container .button a {
   text-transform: uppercase;
@@ -74,7 +74,7 @@ footer .container .button a {
   font-weight: bold;
 }
 footer .container .button.active, footer .container .button:hover {
-  background-color: lightblue;
+  background-color: #097ceb;
 }
 footer .container .social {
   display: flex;
@@ -82,7 +82,7 @@ footer .container .social {
 }
 footer .container .social a {
   text-transform: uppercase;
-  color: lightblue;
+  color: #097ceb;
   font-weight: bold;
   margin-right: 20px;
 }
@@ -91,13 +91,34 @@ footer .container .social img {
   max-width: 25px;
 }
 
-main {
+.hero {
   height: 50vh;
   background-image: url("../img/jumbotron.jpg");
   background-size: cover;
   padding: 20px;
 }
-main h1 {
+
+#comics {
+  background-color: #1c1c1c;
+  padding: 50px;
   color: white;
+}
+#comics h1 {
   text-transform: uppercase;
+  background-color: #097ceb;
+  padding: 10px;
+  display: inline-block;
+}
+#comics .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+#comics .container .card {
+  flex-basis: 14.2857142857%;
+  margin: 10 10px;
+}
+#comics .container .card img {
+  max-width: 200px;
+  max-height: 200px;
 }

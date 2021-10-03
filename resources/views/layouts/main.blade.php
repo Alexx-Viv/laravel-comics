@@ -10,6 +10,7 @@
 <body>
   @include('includes.header')
   <main>
+    <div class="hero"></div>
     @yield('content')
   </main>
   @include('includes.footer')
