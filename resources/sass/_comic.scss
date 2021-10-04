@@ -1,0 +1,81 @@
+.container {
+    color: #113d5b;
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    .copy {
+        width: 70%;
+        h1 {
+            margin-bottom: 20px;
+        }
+        .description {
+            color: #befa96;
+            background-color: #70b764;
+            border-bottom: 1px solid black;
+            margin-bottom: 20px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 10px;
+            .availability {
+                color: white;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 100%;
+                width: 25%;
+                border-left: 1px solid black;
+                margin-left: 10px;
+            }
+            .price {
+                width: 75%;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+        }
+    }
+}
+.container {
+    .talent {
+        h2 {
+            margin-bottom: 20px;
+        }
+        width: 50%;
+        hr {
+            border: 1px solid #eeeeee;
+        }
+        .row {
+            margin: 10px 0;
+            display: flex;
+            justify-content: space-between;
+            span {
+                width: 50%;
+            }
+        }
+    }
+    .specs {
+        h2 {
+            margin-bottom: 20px;
+        }
+        margin-left: 50px;
+        width: 50%;
+        hr {
+            border: 1px solid #eeeeee;
+        }
+        .row {
+            margin: 10px 0;
+            display: flex;
+            justify-content: space-between;
+            span {
+                width: 50%;
+            }
+        }
+    }
+}
+#container {
+    width: 100%;
+    background-color: #f6f6f6;
+    padding-bottom: 20px;
+}

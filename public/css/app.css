@@ -122,3 +122,85 @@ footer .container .social img {
   max-width: 200px;
   max-height: 200px;
 }
+
+.container {
+  color: #113d5b;
+  display: flex;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+.container .copy {
+  width: 70%;
+}
+.container .copy h1 {
+  margin-bottom: 20px;
+}
+.container .copy .description {
+  color: #befa96;
+  background-color: #70b764;
+  border-bottom: 1px solid black;
+  margin-bottom: 20px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+.container .copy .description .availability {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 25%;
+  border-left: 1px solid black;
+  margin-left: 10px;
+}
+.container .copy .description .price {
+  width: 75%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container .talent {
+  width: 50%;
+}
+.container .talent h2 {
+  margin-bottom: 20px;
+}
+.container .talent hr {
+  border: 1px solid #eeeeee;
+}
+.container .talent .row {
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.container .talent .row span {
+  width: 50%;
+}
+.container .specs {
+  margin-left: 50px;
+  width: 50%;
+}
+.container .specs h2 {
+  margin-bottom: 20px;
+}
+.container .specs hr {
+  border: 1px solid #eeeeee;
+}
+.container .specs .row {
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.container .specs .row span {
+  width: 50%;
+}
+
+#container {
+  width: 100%;
+  background-color: #f6f6f6;
+  padding-bottom: 20px;
+}
